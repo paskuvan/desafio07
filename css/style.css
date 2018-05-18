@@ -1,42 +1,44 @@
-
-.header {
-	background-image: url("https://i.imgur.com/gEWfn9D.jpg");
-	background-size: cover;
-	height: 500px;
-	background-repeat: no-repeat;
+ .header {
+     background-image: url("https://i.imgur.com/gEWfn9D.jpg");
+     background-size: cover;
+     height: 500px;
+     background-repeat: no-repeat;
 }
-
-.nav > li > a:hover, .nav > li > a:focus {
-    text-decoration: none;
-    background-color: transparent;
+ .nav > li > a:hover, .nav > li > a:focus {
+     text-decoration: none;
+     background-color: transparent;
 }
-
-.header .text-menu {
-	color: #fff;
-	text-decoration: none;
+ .header .text-menu {
+     color: #fff;
+     text-decoration: none;
 }
-
-.header .logo {
-	width: 100%;
-	max-width: 144px;
+ .header .logo {
+     width: 100%;
+     max-width: 144px;
 }
-
-.header h1 {
-	color: white;
-	text-align: center;
-	text-transform: uppercase;
-	padding: 100px 0 0 0;
-	font-size: 31px;
-	line-height: 40px;
+ .header h1 {
+     color: white;
+     text-align: center;
+     text-transform: uppercase;
+     padding: 100px 0 0 0;
+     font-size: 30px;
+     line-height: 40px;
 }
-
-
-@media only screen and (min-width : 320px) {
-	.header .logo {
-		padding: 10px 0;
-	}
-
-	.header h1 {
-		font-size: 22px;
-	}
+ .header p {
+     color: white;
+}
+ .bootcamp h2 {
+     text-transform: uppercase;
+     text-align: center;
+     font-weight: bold;
+     font-size: 20px;
+     padding: 25px 0;
+}
+ @media only screen and (min-width : 320px) {
+     .header .logo {
+         padding: 10px 0;
+    }
+     .header p {
+         padding: 15px;
+    }
 }
