@@ -1,3 +1,9 @@
+ body {
+    font-family: Trebuchet, sans-serif;
+    margin: 0;
+    padding: 0;
+ } 
+
  .header {
      background-image: url("https://i.imgur.com/gEWfn9D.jpg");
      background-size: cover;
@@ -34,6 +40,50 @@
      font-size: 20px;
      padding: 25px 0;
 }
+
+.bootcamp p {
+    text-align: center;
+    padding: 10px;
+}
+
+.bootcamp .people {
+    width: 500px;
+}
+
+.info{
+    padding: 20px;
+    background-color: #eee;
+    border-top: 1px solid #b2bec3;
+    border-bottom: 1px solid #b2bec3;
+}
+
+.info h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #636e72;
+    padding: 12px;
+}
+
+.info p {
+    text-align: center;
+    color: #636e72;
+    padding: 12px;
+}
+
+.contacto {
+    
+    padding: 20px 0 50px 0;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+
+
+
  @media only screen and (min-width : 320px) {
      .header .logo {
          padding: 10px 0;
@@ -41,4 +91,10 @@
      .header p {
          padding: 15px;
     }
+
+    .contacto {
+        float: none;
+    }
+
+    
 }
